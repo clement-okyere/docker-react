@@ -19,7 +19,5 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
-  access_key_id:
-    secure: "$AWS_ACCESS_KEY"
-  secret-_access_key:
-    secure: "$AWS_SECRET_KEY"
+  access_key_id: $AWS_ACCESS_KEY
+  secret-_access_key: $AWS_SECRET
